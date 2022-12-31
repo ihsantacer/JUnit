@@ -43,6 +43,5 @@ public class C03_FileUploadTesti extends TestBase {
         WebElement fileUploadedElementi= driver.findElement(By.tagName("h3"));
         Assert.assertTrue(fileUploadedElementi.isDisplayed());
 
-        ReusableMethods.bekle(3);
     }
 }
